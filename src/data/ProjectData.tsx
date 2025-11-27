@@ -31,4 +31,12 @@ export const projectData = [
             "Designed and developed the frontend of the SPC kiosk application to streamline queue management for local government units, improving user experience and operational efficiency. Implemented intuitive interfaces and responsive design to facilitate smooth interaction for citizens and staff.",
         techStack:["React", "Node.js", "Express", "MySQL"]
     },
+    {
+        id: '5',
+        image:'/img/works/appointment.png',
+        title:"SPC CALENDAR APPOINTMENT SYSTEM",
+        description:
+            "Creating a digital SPC Calendar Appointment System to improve scheduling and coordination within the Local Government Unit. The system will allow users to set, track, and manage appointments, receive notifications, and view official schedules in real time. It aims to reduce conflicts, streamline processes, and support efficient and organized operations in the SPC.",
+        techStack:["React", "Node.js", "Express", "MySQL"]
+    },
 ]
