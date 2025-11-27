@@ -3,7 +3,7 @@ import { Card, CardActions, CardContent, CardMedia, Chip, IconButton, Typography
 
 export const ProjectContainer = ({image, title, description, techStack}) => {
   return (
-    <Card data-aos="fade-up" 
+    <Card data-aos="zoom-in-up" 
     sx={{ maxWidth: 400, p:.5, bgcolor: '#f7f7f7'}}>
       <CardMedia component="img" height="194" image={image} alt={title} sx={{maxHeight: 300}}/>
 
