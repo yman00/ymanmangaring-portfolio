@@ -1,8 +1,8 @@
-// export default function sitemap() {
-//   return [
-//     {
-//       url: "https://your-site.vercel.app",
-//       lastModified: new Date(),
-//     },
-//   ];
-// }
+export default function sitemap() {
+  return [
+    {
+      url: "https://ymanmangaring-portfolio.vercel.app",
+      lastModified: new Date(),
+    },
+  ];
+}
