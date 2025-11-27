@@ -7,10 +7,10 @@ export const metadata = {
   keywords: ["Yman", "Mangaring", "Purdy"],
   authors: [{ name: "Yman Mangaring" }],
   openGraph: {
-    title: "Your Website Title",
-    description: "Your website description for social previews.",
+    title: "Yman Soriano Mangaring Purdy – Portfolio",
+    description: "Software / Web Developer portfolio of Yman Mangaring showcasing projects, skills, and experience.",
     url: "https://ymanmangaring-portfolio.vercel.app",
-    siteName: "ymanmangaring",
+    siteName: "ymanmangaring-portfolio",
     images: [
       {
         url: "/og-image.png", // optional
