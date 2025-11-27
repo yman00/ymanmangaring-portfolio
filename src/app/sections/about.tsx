@@ -18,7 +18,7 @@ return (
     sx={{display: 'flex', 
         // width: '100%', 
         // height: {xs:'150vh', sm:'100vh'}, 
-        backgroundColor: 'bg.primary', 
+        backgroundColor: '#f7fafc', 
         justifyContent: 'space-evenly', 
         color: 'gray',
         flexDirection: {xs: 'column', sm: 'row'}
@@ -28,7 +28,7 @@ return (
       <Box sx={{display: 'flex', flexDirection: 'column', width: {xs: '100vw', sm: '40vw'},pt: {xs:'none', sm:'none'}, justifyContent: 'center', alignItems: 'center'}}>
         <Stack data-aos="zoom-in-right" sx={{width: '100%', gap: 1, px: '2rem'}}>
           <Typography variant='h5'>Hi there!</Typography>
-          <Typography variant='h3' sx={{fontFamily: 'Tektur', color: '#121212'}}>{personalData.name}</Typography>
+          <Typography variant='h3' sx={{fontFamily: 'Tektur', color: '#374151'}}>{personalData.name}</Typography>
           <Typography variant='body2' sx={{ textAlign: 'justify'}}>
             {personalData.about}
           </Typography>
@@ -38,8 +38,11 @@ return (
               variant="contained"
               sx={{
                 bgcolor: '#374151',
-                color: '#f3f3f3',
-                '&:hover': { bgcolor: '#e5e5e5' }, 
+                color: '#f7fafc',
+                '&:hover': { 
+                  bgcolor: '#f7fafc', 
+                  color: '#374151'
+                }, 
                 textTransform: 'none',
               }}
               endIcon={<CloudDownload />}

@@ -14,9 +14,9 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="md:mt-15 mx-3 bg-white-400 flex flex-col justify-center">
+    <section id="projects" className="md:pt-15 pb-5 px-3 bg-[#f7fafc] flex flex-col justify-center">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-extrabold tracking-wide">
+        <h2 className="text-3xl font-extrabold tracking-wide text-[#374151]">
           PROJECTS AND CERTIFICATIONS
         </h2>
         <div className="w-20 h-1 bg-[#d2824a] mx-auto mt-2 rounded"></div>

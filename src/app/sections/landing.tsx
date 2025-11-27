@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <section id="home" className="h-screen bg-white-400 flex flex-col items-center justify-center">
+    <section id="home" className="h-screen bg-[#f7fafc] flex flex-col items-center justify-center">
       <div data-aos="zoom-in" className="flex flex-row mb-3">
         <h1 className="text-5xl md:text-9xl font-bold text-[#121212]">YM@NPURDY</h1>
         <h1 className="text-2xl md:text-7xl font-bold text-[#121212]">®</h1>
