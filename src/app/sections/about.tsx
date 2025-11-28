@@ -33,22 +33,29 @@ return (
             {personalData.about}
           </Typography>
           <Box sx={{display: 'flex', width: '100%', gap: 1}}>
-            <Button
-              size="small"
-              variant="contained"
-              sx={{
-                bgcolor: '#374151',
-                color: '#f7fafc',
-                '&:hover': { 
-                  bgcolor: '#f7fafc', 
-                  color: '#374151'
-                }, 
-                textTransform: 'none',
-              }}
-              endIcon={<CloudDownload />}
+            <a 
+              href="/MangaringCV.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              style={{ textDecoration: "none" }}
             >
-              Download CV
-            </Button>
+              <Button
+                size="small"
+                variant="contained"
+                sx={{
+                  bgcolor: '#374151',
+                  color: '#f7fafc',
+                  '&:hover': { 
+                    bgcolor: '#f7fafc', 
+                    color: '#374151'
+                  }, 
+                  textTransform: 'none',
+                }}
+                endIcon={<CloudDownload />}
+              >
+                Download CV
+              </Button>
+            </a>
           </Box>
         </Stack>
       </Box>
